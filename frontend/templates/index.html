@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>E-waste Disposal Assistant</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+<div class="container">
+    <h1>E-waste Disposal Assistant</h1>
+    <div id="chat-window"></div>
+
+    <div class="controls">
+        <input id="image-input" type="file" accept="image/*" capture="environment">
+
+        <!-- Existing: analyze uploaded image -->
+        <button id="send-btn">Analyze Image</button>
+
+        <!-- NEW: open camera & capture -->
+        <button id="camera-btn">Open Camera</button>
+        <button id="capture-btn" style="display:none;">Capture & Analyze</button>
+    </div>
+
+    <!-- Camera preview (shown only when camera is on) -->
+    <video id="camera-preview" autoplay playsinline style="display:none; width: 100%; max-height: 240px; margin-top: 8px; border-radius: 8px;"></video>
+    <canvas id="capture-canvas" style="display:none;"></canvas>
+
+    <div class="chat-controls">
+        <input id="chat-input" type="text" placeholder="Ask a question about e-waste or this item...">
+        <button id="chat-send-btn">Ask</button>
+    </div>
+
+
+</div>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

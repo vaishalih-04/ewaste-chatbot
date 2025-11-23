@@ -1,0 +1,114 @@
+{
+  "Battery": {
+    "display_name": "Battery",
+    "category": "Hazardous E-waste",
+    "disposal_steps": [
+      "Do not throw used batteries in normal dustbin.",
+      "Do not crush, burn or puncture batteries.",
+      "Store them in a cool, dry place until disposal.",
+      "Drop them at designated battery recycling bins or authorised e-waste centres."
+    ],
+    "hazards": "Batteries may leak toxic chemicals and pose fire risk.",
+    "tips": "Tape the terminals to prevent short-circuits during storage."
+  },
+  "Keyboard": {
+    "display_name": "Computer Keyboard",
+    "category": "Small E-waste",
+    "disposal_steps": [
+      "Disconnect the keyboard and remove any batteries if wireless.",
+      "Do not break or burn the plastic body.",
+      "Hand it over to an authorised e-waste collection centre."
+    ],
+    "hazards": "Contains plastics and metals that pollute soil and water if dumped.",
+    "tips": "If working, consider donating before recycling."
+  },
+  "Microwave": {
+    "display_name": "Microwave Oven",
+    "category": "Large Household E-waste",
+    "disposal_steps": [
+      "Unplug and clean the microwave before disposal.",
+      "Do not try to dismantle internal parts yourself.",
+      "Take it to a registered e-waste recycler or municipal pickup service."
+    ],
+    "hazards": "Contains electronic circuits and materials that are not safe in landfills.",
+    "tips": "Check if local brands offer take-back or exchange programs."
+  },
+  "Mobile": {
+    "display_name": "Mobile Phone",
+    "category": "E-waste",
+    "disposal_steps": [
+      "Backup data and perform a factory reset.",
+      "Remove SIM card and memory card.",
+      "Do not throw in normal garbage.",
+      "Deposit at authorised e-waste centre or brand collection kiosk."
+    ],
+    "hazards": "Contains heavy metals and chemicals harmful to health and environment.",
+    "tips": "If still functional, consider reuse or donation before recycling."
+  },
+  "Mouse": {
+    "display_name": "Computer Mouse",
+    "category": "Small E-waste",
+    "disposal_steps": [
+      "Unplug the mouse and remove batteries if wireless.",
+      "Do not dispose with regular plastic waste.",
+      "Drop it at an e-waste collection centre."
+    ],
+    "hazards": "Plastic and electronic parts can release toxins when burnt or dumped.",
+    "tips": "Reuse or donate if still working."
+  },
+  "PCB": {
+    "display_name": "Printed Circuit Board",
+    "category": "Electronic Component E-waste",
+    "disposal_steps": [
+      "Do not burn or break PCBs.",
+      "Handle with care; avoid inhaling dust from broken boards.",
+      "Give them only to authorised e-waste recyclers."
+    ],
+    "hazards": "Contains heavy metals and brominated flame retardants; highly polluting.",
+    "tips": "Store in a box until you can hand them to a recycler."
+  },
+  "Player": {
+    "display_name": "Media Player (CD/DVD/MP3)",
+    "category": "Small E-waste",
+    "disposal_steps": [
+      "Remove batteries or power cables.",
+      "Do not dispose with household waste.",
+      "Hand over to an e-waste collection centre."
+    ],
+    "hazards": "Contains circuit boards, plastics and metals.",
+    "tips": "Check if it can be repaired or reused."
+  },
+  "Printer": {
+    "display_name": "Printer",
+    "category": "IT Equipment E-waste",
+    "disposal_steps": [
+      "Remove ink/toner cartridges and dispose them in dedicated collection programs.",
+      "Do not throw the printer in normal garbage.",
+      "Take the printer to an authorised e-waste recycler."
+    ],
+    "hazards": "Electronic parts and residual toner/ink can be harmful if mismanaged.",
+    "tips": "Some manufacturers offer take-back or exchange offers."
+  },
+  "Television": {
+    "display_name": "Television",
+    "category": "Consumer Electronics E-waste",
+    "disposal_steps": [
+      "Unplug and avoid breaking the screen.",
+      "Do not leave it on the roadside or in general trash.",
+      "Arrange pickup or drop-off at authorised e-waste centres."
+    ],
+    "hazards": "Screens and internal parts may contain hazardous substances.",
+    "tips": "Many cities have special drives for TV and large appliance collection."
+  },
+  "Washing Machine": {
+    "display_name": "Washing Machine",
+    "category": "Large Appliance E-waste",
+    "disposal_steps": [
+      "Disconnect water and power supply safely.",
+      "Do not dismantle heavy internal parts at home.",
+      "Contact municipal service or authorised recycler for pickup."
+    ],
+    "hazards": "Contains metals, electronics and plastic parts that should be recycled properly.",
+    "tips": "Check for buy-back or exchange schemes from appliance dealers."
+  }
+}
